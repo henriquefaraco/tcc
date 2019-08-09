@@ -1,5 +1,10 @@
 $(function(){
 
+	$('#form-familias').hide();
+	$('#form-individuais').hide();
+	$('#form-grupos').hide();
+
+
 	$('#btn-familias').click(function(){
 		$('#form-familias').show();
 		$('#form-individuais').hide();
