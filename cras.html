@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"></head>
+    <link rel="stylesheet" type="text/css" href="formata-forms.css">
+    
+<body> 
+	
+	<form>
+		
+		<div id="identificacao">
+
+			<h1><legend>Registro Mensal de Atendimento -  CRAS</legend></h1>
+
+			<h3><br>IDENTIFICAÇÃO</h3>
+			
+			CRAS de Referência
+			<select name="cras">
+			  <option value="cras-areias">CRAS Areias</option>
+			  <option value="cras-colonia">CRAS Colônia</option>
+			  <option value="cras-forquilhinhas">CRAS Forquilhinhas</option>
+			  <option value="cras-ipiranga">CRAS Ipiranga</option>
+			  <option value="cras-zanelatto">CRAS Zanelatto</option>
+			</select><br><br>
+
+			Mês de Referência
+			<input type="month" name="mesReferencia" class="alinha-dir"><br>
+
+			Responsavel pelo preenchimento
+			<select name="cras">
+			  <option value="trab1">Trabalhador 1</option>
+			  <option value="trab2">Trabalhador 2</option>
+			  <option value="trab3">Trabalhador 3</option>
+			  <option value="trab4">Trabalhador 4</option>
+			</select><br><br>
+		</div>
+			
+		<div id="btn">
+			
+			<button id="btn-familias">Famílias</button>
+			<button id="btn-individuais">Atendimentos individuais</button>
+			<button id="btn-grupos">Atendimentos em Grupo</button>
+
+		</div>
+
+
+		<div id="form-familias">
+			
+			<h3><br>CADASTRO DE FAMÍLIAS</h3>
+
+				Responsável pela família <br>
+				<input type="text" name="nomeResponsavel"><br><br>
+
+				Perfil da Família <br>
+				<input type="checkbox" name="perfil" value="extremaPobreza">Família em Situação de Extrema Pobreza<br>
+				<input type="checkbox" name="perfil" value="bolsaFamilia">Família Beneficiária de Bolsa Família<br>
+				<input type="checkbox" name="perfil" value="bolsaFamiliaCondicionalidades">Família Beneficiária de Bolsa Família, em descumpimento de condicionalidades<br>
+				<input type="checkbox" name="perfil" value="bpc">Família Beneficiária de BPC<br>
+				<input type="checkbox" name="perfil" value="trabalhoInfantil">Família com Crianças ou Adolescentes em Situação de Trabalho Infantil<br>
+				<input type="checkbox" name="perfil" value="Acolhimento">Família com Crianças ou Adolescentes em Serviço de Acolhimento<br>
+
+		</div>
+
+		<div id="form-individuais">
+			
+
+			<h3><br>CADASTRO DE ATENDIMENTOS PARTICULARIZADOS</h3>
+
+				Quantidade de Atendimentos Particularizados realizados no período <input type="number" name="atendmentosRealizados"><br>
+				Famílias encaminhadas para inclusão no Cadastro Único <input type="number" name="incluiCadUnico"><br>
+				Famílias encaminhadas para atualização no no Cadastro Único <input type="number" name="atualizaCadUnico"><br>
+				Indivíduos encaminhados para acesso ao BPC <input type="number" name="encaminhaBpc"><br>
+				Indivíduos encaminhados para o CREAS <input type="number" name="encaminhaCreas"><br>
+				Visitas Domiciliares realizadas <input type="number" name="visitaDomiciliar"><br>
+				Total de auxílios-natalidade concedidos/entregues durante o mês de Referência <input type="number" name="auxilioNatalidade"><br>
+				Total de auxílios-funderal concedidos/entregues durante o mês de Referência <input type="number" name="auxilioFuneral"><br>
+				Outros benefícios eventuais concedidos/entregues durante o mês de Referência <input type="number" name="outrosAuxilios"><br>
+		
+		</div>
+		
+		<div id="form-grupos">
+			
+			<h3><br>CADASTRO DE ATENDIMENTOS COLETIVOS</h3>
+
+				Famílias participando regularmente de grupos no âmbito do PAIF <input type="number" name="familiasPaif"><br>
+				Crianças de 0 a 6 anos em Serviço de Conviviência e Fortalecimento de Vínculos <input type="number" name="criancas0a6Scfv"><br>
+				Crianças/Adolescentes de 7 a 14 anos em Serviço de Conviviência e Fortalecimento de Vínculos <input type="number" name="criascas7a14Scfv"><br>
+				Adolescentes de 15 a 17 anos em Serviço de Conviviência e Fortalecimento de Vínculos <input type="number" name="adolescentes15a17Scfv"><br>
+				Adultos entre 18 e 59 anos em Serviço de Conviviência e Fortalecimento de Vínculos <input type="number" name="adultosScfv"><br>
+				Idosos em Serviço de Conviviência e Fortalecimento de Vínculos <input type="number" name="idososScfv"><br>
+				Pessoas que participanram de palestras, oficinas e outras atividades coletivas de caráter continuado <input type="number" name="idososScfv"><br>
+		
+		</div>
+		
+
+	</form>
+	
+	<script src="jquery.js"></script>
+	<script src="programacao.js"></script>
+	
+</body>
+</html>
