@@ -6,10 +6,10 @@
     
 <body> 
 	
-	<form>
-		
-		<div id="identificacao">
+	<div id="identificacao">
 
+		<form>
+				
 			<h1><legend>Registro Mensal de Atendimento -  CRAS</legend></h1>
 
 			<h3><br>IDENTIFICAÇÃO</h3>
@@ -33,37 +33,41 @@
 			  <option value="trab3">Trabalhador 3</option>
 			  <option value="trab4">Trabalhador 4</option>
 			</select><br><br>
-		</div>
-			
-		<div id="btn">
-			
 			<button id="btn-familias">Famílias</button>
 			<button id="btn-individuais">Atendimentos individuais</button>
 			<button id="btn-grupos">Atendimentos em Grupo</button>
+		</form>
+	</div>
+		
+		
 
-		</div>
+	</div>
 
 
-		<div id="form-familias">
+	<div id="form-familias">
+		
+		<form>
 			
 			<h3><br>CADASTRO DE FAMÍLIAS</h3>
 
-				Responsável pela família <br>
-				<input type="text" name="nomeResponsavel"><br><br>
+			Responsável pela família <br>
+			<input type="text" name="nomeResponsavel"><br><br>
 
-				Perfil da Família <br>
-				<input type="checkbox" name="perfil" value="extremaPobreza">Família em Situação de Extrema Pobreza<br>
-				<input type="checkbox" name="perfil" value="bolsaFamilia">Família Beneficiária de Bolsa Família<br>
-				<input type="checkbox" name="perfil" value="bolsaFamiliaCondicionalidades">Família Beneficiária de Bolsa Família, em descumpimento de condicionalidades<br>
-				<input type="checkbox" name="perfil" value="bpc">Família Beneficiária de BPC<br>
-				<input type="checkbox" name="perfil" value="trabalhoInfantil">Família com Crianças ou Adolescentes em Situação de Trabalho Infantil<br>
-				<input type="checkbox" name="perfil" value="Acolhimento">Família com Crianças ou Adolescentes em Serviço de Acolhimento<br>
+			Perfil da Família <br>
+			<input type="checkbox" name="perfil" value="extremaPobreza">Família em Situação de Extrema Pobreza<br>
+			<input type="checkbox" name="perfil" value="bolsaFamilia">Família Beneficiária de Bolsa Família<br>
+			<input type="checkbox" name="perfil" value="bolsaFamiliaCondicionalidades">Família Beneficiária de Bolsa Família, em descumpimento de condicionalidades<br>
+			<input type="checkbox" name="perfil" value="bpc">Família Beneficiária de BPC<br>
+			<input type="checkbox" name="perfil" value="trabalhoInfantil">Família com Crianças ou Adolescentes em Situação de Trabalho Infantil<br>
+			<input type="checkbox" name="perfil" value="Acolhimento">Família com Crianças ou Adolescentes em Serviço de Acolhimento<br>
+		</form>
 
-		</div>
+	</div>
 
-		<div id="form-individuais">
+	<div id="form-individuais">
+		
+		<form>
 			
-
 			<h3><br>CADASTRO DE ATENDIMENTOS PARTICULARIZADOS</h3>
 
 				Quantidade de Atendimentos Particularizados realizados no período <input type="number" name="atendmentosRealizados"><br>
@@ -75,10 +79,13 @@
 				Total de auxílios-natalidade concedidos/entregues durante o mês de Referência <input type="number" name="auxilioNatalidade"><br>
 				Total de auxílios-funderal concedidos/entregues durante o mês de Referência <input type="number" name="auxilioFuneral"><br>
 				Outros benefícios eventuais concedidos/entregues durante o mês de Referência <input type="number" name="outrosAuxilios"><br>
+		</form>
+	
+	</div>
+
+	<div id="form-grupos">
 		
-		</div>
-		
-		<div id="form-grupos">
+		<form>
 			
 			<h3><br>CADASTRO DE ATENDIMENTOS COLETIVOS</h3>
 
@@ -89,12 +96,10 @@
 				Adultos entre 18 e 59 anos em Serviço de Conviviência e Fortalecimento de Vínculos <input type="number" name="adultosScfv"><br>
 				Idosos em Serviço de Conviviência e Fortalecimento de Vínculos <input type="number" name="idososScfv"><br>
 				Pessoas que participanram de palestras, oficinas e outras atividades coletivas de caráter continuado <input type="number" name="idososScfv"><br>
-		
-		</div>
-		
-
-	</form>
+		</form>
 	
+	</div>
+		
 	<script src="jquery.js"></script>
 	<script src="programacao.js"></script>
 	
