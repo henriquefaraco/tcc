@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"></head>
+    <link rel="stylesheet" type="text/css" href="formata.css">
+    
+<body> 
+	
+	<div id="identificacao">
+
+		<form>
+				
+			<h1><legend>Registro Mensal de Atendimento -  CREAS</legend></h1>
+
+			<h3><br>IDENTIFICAÇÃO</h3>
+			
+			CREAS de Referência
+			<select name="creas">
+			  <option value="cras-areias">CREAS Sede</option>
+			  <option value="cras-colonia">CREAS Barreiros</option>
+			</select><br><br>
+
+			Mês de Referência
+			<input type="month" name="mesReferencia" class="alinha-dir"><br><br>
+
+			Responsável pelo preenchimento
+			<select name="cras">
+			  <option value="trab1">Trabalhador 1</option>
+			  <option value="trab2">Trabalhador 2</option>
+			  <option value="trab3">Trabalhador 3</option>
+			  <option value="trab4">Trabalhador 4</option>
+			</select><br><br>
+
+		</form>
+	
+	</div>
+	<div id="botoes">
+		<form>
+			<button id="btn-paefi">PAEFI</button>
+			<button id="btn-atendimentos">Atendimentos</button>
+			<button id="btn-mse">Medidas Socioeducativas/button>
+			<button id="btn-abordagem">Abordagem Social</button>
+			<button type="refresh" id="btn-cancela">Cancela</button>
+			<button type="submit" id="btn-confirma">Confirma</button>
+		</form>
+	</div>
+
+	<div id="form-paefi">
+		
+		<form>
+			
+			<h3><br>CADASTRO DE CASOS</h3>
+
+			Número de Dossiê: <br>
+			<input type="text" name="dossie"><br><br>
+
+			Nome do Usuário:
+			<input type="text" name="dossie"><br><br>
+
+			Direito Violado:
+			<input type="checkbox" name="direitoViolado" value="abandono">Abandono<br>
+			<input type="checkbox" name="direitoViolado" value="desacolhimentoInstitucional">Desacolhimento Institucional<br>
+			<input type="checkbox" name="direitoViolado" value="acolhimentoInstitucional">Acolhimento Institucional<br>
+			<input type="checkbox" name="direitoViolado" value="discriminaSexo">Discriminação em Decorrência de Orientacao Sexual<br>
+			<input type="checkbox" name="direitoViolado" value="discriminaEtnia">Discriminação em Decorrência de Raça/Etnia<br>
+			<input type="checkbox" name="direitoViolado" value="descumpreCondicionalidades">Descumprimento de Condicionalidades (PBF / PETI)<br>
+			<input type="checkbox" name="direitoViolado" value="exploracaoSexual">Exploração Sexual<br>
+			<input type="checkbox" name="direitoViolado" value="negligencia">negligência<br>
+			<input type="checkbox" name="direitoViolado" value="trabalhoInfatil">Trabalho Infantil<br>
+			<input type="checkbox" name="direitoViolado" value="violenciaFisica">Violência Física<br>
+			<input type="checkbox" name="direitoViolado" value="violenciaPatrimonial">Violência Patrimonial<br>
+			<input type="checkbox" name="direitoViolado" value="violenciaPsicologia">Violência Psicológica<br>
+			<input type="checkbox" name="direitoViolado" value="violenciaSexual">Violência Sexual<br>
+			<input type="checkbox" name="direitoViolado" value="traficoPessoas">Tráfico de Pessoas<br>
+			<input type="checkbox" name="direitoViolado" value="situacaoRua">Situação de Rua<br>
+
+
+		</form>
+
+	</div>
+
+	<div id="form-individuais">
+		
+		<form>
+			
+			<h3><br>CADASTRO DE ATENDIMENTOS PARTICULARIZADOS</h3>
+
+		</form>
+	
+	</div>
+
+	<div id="form-grupos">
+		
+		<form>
+			
+			<h3><br>CADASTRO DE ATENDIMENTOS COLETIVOS</h3>
+
+		</form>
+	
+	</div>
+		
+	<script src="jquery.js"></script>
+	<script src="programacao.js"></script>
+	
+</body>
+</html>
