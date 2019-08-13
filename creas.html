@@ -49,9 +49,9 @@
 		
 		<form>
 			
-			<h3><br>CADASTRO DE CASOS</h3>
+			<h3><br>PAEFI</h3>
 
-			Número de Dossiê: <br>
+			Número de Dossiê:
 			<input type="text" name="dossie"><br><br>
 
 			Nome do Usuário:
@@ -72,28 +72,72 @@
 			<input type="checkbox" name="direitoViolado" value="violenciaPsicologia">Violência Psicológica<br>
 			<input type="checkbox" name="direitoViolado" value="violenciaSexual">Violência Sexual<br>
 			<input type="checkbox" name="direitoViolado" value="traficoPessoas">Tráfico de Pessoas<br>
-			<input type="checkbox" name="direitoViolado" value="situacaoRua">Situação de Rua<br>
+			<input type="checkbox" name="direitoViolado" value="situacaoRua">Situação de Rua<br><br>
 
+			É violação de característica Intrafamiliar?
+			<input type="radio" name="intrafamiliar" value="nao" checked>Não			
+			<input type="radio" name="intrafamiliar" value="sim">Sim<br><br>
+
+			Perfil da Família:<br>
+			<input type="checkbox" name="perfil" value="bolsaFamilia">Família Beneficiária de Bolsa Família<br>
+			<input type="checkbox" name="perfil" value="bpc">Família Beneficiária de BPC<br>
+			<input type="checkbox" name="perfil" value="trabalhoInfatil">Família com Criança e Adolescente em Situação de Trabalho Infantil<br>
+			<input type="checkbox" name="perfil" value="acolhimento">Família com Criança e Adolescente em Serviço de Acolhimento<br>
+			<input type="checkbox" name="perfil" value="psicoativas">Família cuja situação de violência esteja associada ao uso abusivo de substâncias psicoativas<br>
+			<input type="checkbox" name="perfil" value="mse">Família com Adolescentes em cumprimento de Medidas Socioeducativas em meio aberto<br><br>
+			
+			Faixa Etária:<br>
+			<input type="radio" name="idade" value="zero-seis">0 a 6 Anos<br>			
+			<input type="radio" name="idade" value="sete-doze">7 a 12 Anos<br>			
+			<input type="radio" name="idade" value="treze-quinze">13 a 15 Anos<br>			
+			<input type="radio" name="idade" value="dezesseis-dezessete">16 a 17 Anos<br>			
+			<input type="radio" name="idade" value="dezoito-cinquentaenove">18 a 59 Anos<br>			
+			<input type="radio" name="idade" value="sessenta">60 Anos ou mais<br><br>			
+			
+			Sexo:<br>
+			<input type="radio" name="sexo" value="masculino">Masculino			
+			<input type="radio" name="sexo" value="feminino">Feminino
+			<input type="radio" name="sexo" value="desconhecido">Não Consta<br><br>			
+
+			Pessoa com Deficiência:<br>
+			<input type="radio" name="pcd" value="sim">Sim			
+			<input type="radio" name="pcd" value="nao">Não
+			<input type="radio" name="pcd" value="desconhecido">Não Consta<br><br>			
 
 		</form>
 
 	</div>
 
-	<div id="form-individuais">
+	<div id="form-atendimentos">
 		
 		<form>
 			
-			<h3><br>CADASTRO DE ATENDIMENTOS PARTICULARIZADOS</h3>
+			<h3><br>ATENDIMENTOS REALIZADOS NO CREAS</h3>
+
+				Total de atendimentos individualizados realizados no mês de referência <input type="number" name="atendmentosIndividuais"><br>
+				Total de atendimentos em grupo realizados no mês de referência <input type="number" name="atendimentosGrupo"><br>
+				Famílias encaminhadas ao CRAS durante o mês de referência <input type="number" name="encaminhaCras"><br>
+				Visitas domiciliares realizadas no mês de referência <input type="number" name="visitas"><br>
 
 		</form>
 	
 	</div>
 
-	<div id="form-grupos">
+	<div id="form-mse">
 		
 		<form>
 			
-			<h3><br>CADASTRO DE ATENDIMENTOS COLETIVOS</h3>
+			<h3><br>MEDIDAS SOCIEDUCATIVAS (LA/PSC)</h3>
+
+		</form>
+	
+	</div>
+
+	<div id="form-abordagem">
+		
+		<form>
+			
+			<h3><br>ABORDAGEM SOCIAL</h3>
 
 		</form>
 	
