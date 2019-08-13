@@ -6,8 +6,6 @@ $(function(){
 	$('#btn-cancela').hide();
 	$('#btn-confirma').hide();
 
-
-
 	$('#btn-familias').click(function(e){
 		e.preventDefault();
 		$('#form-familias').show();
