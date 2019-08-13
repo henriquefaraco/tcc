@@ -17,6 +17,7 @@ $(function(){
 		$('#btn-cancela').show();
 		$('#btn-confirma').show();
 	});
+	$('#btn-individuais').click(function(e){
 		e.preventDefault();
 		$('#form-familias').hide();
 		$('#form-individuais').show();
