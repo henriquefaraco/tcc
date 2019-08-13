@@ -47,6 +47,8 @@ $(function(){
 		$('#btn-familias').show();
 		$('#btn-individuais').show();
 		$('#btn-grupos').show();
+		$('#btn-cancela').hide();
+		$('#btn-confirma').hide();
 	});
 	$('#btn-confirma').click(function(e){
 		e.preventDefault();
@@ -56,6 +58,8 @@ $(function(){
 		$('#btn-familias').show();
 		$('#btn-individuais').show();
 		$('#btn-grupos').show();
+		$('#btn-cancela').hide();
+		$('#btn-confirma').hide();
 	});
 
 });
