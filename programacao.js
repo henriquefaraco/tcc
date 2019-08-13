@@ -10,6 +10,8 @@ $(function(){
 		$('#form-familias').show();
 		$('#form-individuais').hide();
 		$('#form-grupos').hide();
+		$('#btn-individuais').hide();
+		$('#btn-grupos').hide();
 	});
 	$('#btn-individuais').click(function(e){
 		e.preventDefault();
