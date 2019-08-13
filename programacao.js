@@ -16,6 +16,8 @@ $(function(){
 		$('#btn-familias').hide();
 		$('#btn-individuais').hide();
 		$('#btn-grupos').hide();
+		$('#btn-cancela').show();
+		$('#btn-confirma').show();
 	});
 		e.preventDefault();
 		$('#form-familias').hide();
@@ -24,6 +26,8 @@ $(function(){
 		$('#btn-familias').hide();
 		$('#btn-individuais').hide();
 		$('#btn-grupos').hide();
+		$('#btn-cancela').show();
+		$('#btn-confirma').show();
 	});
 	$('#btn-grupos').click(function(e){
 		e.preventDefault();
@@ -33,6 +37,8 @@ $(function(){
 		$('#btn-familias').hide();
 		$('#btn-individuais').hide();
 		$('#btn-grupos').hide();
+		$('#btn-cancela').show();
+		$('#btn-confirma').show();
 	});
 	$('#btn-cancela').click(function(e){
 		e.preventDefault();
